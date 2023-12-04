@@ -29,7 +29,7 @@ class AntiSpamException(Exception):
 
 
 class SeleniumBaseTranslator(BaseTranslator):
-    HEADLESS = False
+    HEADLESS = True
 
     WEBDRIVER_WAIT = WebDriverWait
     WEBDRIVER_BY = By
